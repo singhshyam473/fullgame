@@ -1,0 +1,105 @@
+body {
+	font-family: 'Londrina Solid', cursive;
+
+	color: #033c4f;
+	background: #F9FAFB;
+	padding: 0;
+	margin: 0;
+}
+
+h1,h2,h3 {
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	width: 100%;
+	background: #73e8ff;
+	min-height: 666px;
+}
+
+.container {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+}
+
+.hidden {
+	display: none;
+}
+
+.background {
+	position: absolute;
+	width: 800px;
+	height: 600px;
+	left: 0;
+	background: rgb(114, 145, 211);
+}
+
+.feature-container {
+	width: 1321px;
+}
+.game-container {
+	left: 155px;
+	position: absolute;
+	width: 1024px;
+	height: 576px;
+	top: 31px;
+}
+
+.start-game {
+	position: absolute;
+	margin-top: 157px;
+}
+
+.start-button {
+	position: absolute;
+	left: 524px;
+	top: 233px;
+	transition: 0.5s all;
+}
+
+.start-button:hover {
+	left: 532px;
+	-ms-transform: rotate(3.5deg); /* IE 9 */
+    -webkit-transform: rotate(3.5deg); /* Chrome, Safari, Opera */
+    transform: rotate(3.5deg);
+}
+
+.game-over {
+	position: absolute;
+	top: 150px;
+}
+
+.game-over-content {
+	position: absolute;
+	width: 100%;
+	top: 70px;
+	color: #FFF;
+}
+
+.play-again {
+	position: absolute;
+	left: 446px;
+	top: 228px;
+	transition: 0.5s all;
+}
+
+.play-again:hover {
+	left: 440px;
+	-ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5deg);
+}
+
+.game-over-content h1 {
+	font-size: 55px;
+}
+
+.game-over-content h2 {
+	font-size: 35px;
+}
+
+
+
